@@ -19,7 +19,7 @@ const MainPage = ({ user }) => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-      fetch(`http://localhost:5000/userPost?email=${user?.email}`)
+      fetch(`https://twitter-application-d2.onrender.com/userPost?email=${user?.email}`)
         .then(res => res.json())
         .then(data => {
           setPosts(data);
@@ -52,7 +52,7 @@ const MainPage = ({ user }) => {
 
         if (url) {
             // axios.patch(`http://localhost:5000/userUpdates/${user?.email}`, userCoverImage)
-            axios.patch(`http://localhost:5000/userUpdates/${user?.email}`, userCoverImage)
+            axios.patch(`https://twitter-application-d2.onrender.com/userUpdates/${user?.email}`, userCoverImage)
             .then(res => console.log('Updated user cover image:', res))
            .catch(error => console.error('Error updating cover image:', error));
 
@@ -82,7 +82,7 @@ const MainPage = ({ user }) => {
         setIsLoading(false);
 
         if (url) {
-            axios.patch(`http://localhost:5000/userUpdates/${user?.email}`, userProfileImage)
+            axios.patch(`https://twitter-application-d2.onrender.com/userUpdates/${user?.email}`, userProfileImage)
             .then(res => console.log('Updated user cover image:', res))
            .catch(error => console.error('Error updating cover image:', error));
 

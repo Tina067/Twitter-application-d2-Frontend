@@ -51,7 +51,7 @@
             email: email,
         }
 
-      axios.post(`http://localhost:5000/register`,user)
+      axios.post(`https://twitter-application-d2.onrender.com/register`,user)
       
     };
 

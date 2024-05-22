@@ -9,7 +9,7 @@ const useLoggedInUser = () => {
 
     useEffect(() => {
         if (email) { // Fetch only if email is available
-            fetch(`http://localhost:5000/loggedInUser?email=${email}`)
+            fetch(`https://twitter-application-d2.onrender.com/loggedInUser?email=${email}`)
                 .then(res => res.json())
                 .then(data => {
                     setLoggedInUser(data);

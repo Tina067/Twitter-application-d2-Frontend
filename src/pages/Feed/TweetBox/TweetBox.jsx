@@ -44,7 +44,7 @@ import auth from '../../../firebase.init';
     const handleTweet = (e) => {
       e.preventDefault();
       if(user.providerData[0].providerId ==='password'){
-        fetch(`http://localhost:5000/loggedInUser?email=${email}`)
+        fetch(`https://twitter-application-d2.onrender.com/loggedInUser?email=${email}`)
         .then(res => res.json())
         .then(data => {
             setName(data[0]?.name)
@@ -71,7 +71,7 @@ import auth from '../../../firebase.init';
         setPost('');
         setImageURL('');
 
-        fetch(`http://localhost:5000/post`, {
+        fetch(`https://twitter-application-d2.onrender.com/post`, {
           method: "POST",
           headers: {
             'content-type': 'application/json'
