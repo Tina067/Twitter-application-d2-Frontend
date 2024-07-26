@@ -58,14 +58,14 @@ import Lists from './pages/Lists/Lists';
 import Profile from './pages/Profile/Profile';
 import More from './pages/More/More';
 import Feed from './pages/Feed/Feed';
-import LanguageSwitcher from './components/LanguageSwitcher'; // Import the LanguageSwitcher component
+// import LanguageSwitcher from './components/LanguageSwitcher'; // Import the LanguageSwitcher component
 
 function App() {
   // const { t } = useTranslation(); // Use the useTranslation hook
 
   return (
     <div className="App">
-      <LanguageSwitcher /> {/* Add the LanguageSwitcher component */}
+      {/* <LanguageSwitcher /> Add the LanguageSwitcher component */}
       {/* <h1>{t('welcome')}</h1> Use translation */}
       <BrowserRouter>
         <Routes>

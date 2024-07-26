@@ -40,6 +40,7 @@ import Widgets from './Widgets/Widgets';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';
 import { Outlet } from 'react-router-dom';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 import '../App.css';
 
 
@@ -54,6 +55,7 @@ const Home = () => {
   return (
     <div className='app'>
       <Sidebar handleLogout={handleLogout} user={user} />
+      <LanguageSwitcher />
       <Outlet />
       <Widgets />
     </div>
