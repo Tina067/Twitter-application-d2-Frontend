@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome",
+    "tweet": "Tweet",
+    "explore": "Explore",
+    "bookmarks": "Bookmarks",
+    "lists": "Lists",
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "loginButton": "Login",
+      "googleButton": "Login with Google",
+      "signUpText": "Don't have an account? Sign up"
+    }
+  }
+  

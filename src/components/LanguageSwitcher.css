@@ -1,0 +1,130 @@
+/* Light and Dark Theme Styles */
+.light-theme {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .dark-theme {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  /* Container Styling */
+  .language-switcher-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Button Styles */
+  .language-switcher-container button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .language-switcher-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .language-switcher-container button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+  
+  /* Input Styles */
+  .language-switcher-container input[type="email"],
+  .language-switcher-container input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .language-switcher-container {
+      padding: 10px;
+    }
+    
+    .language-switcher-container button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+    
+    .language-switcher-container input {
+      font-size: 14px;
+    }
+  }
+  
+  /* frontend/src/components/LanguageSwitcher.css */
+
+.language-switcher-container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.language-switcher-container.light-theme {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.language-switcher-container.dark-theme {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="email"] {
+  width: calc(100% - 24px);
+}
+
+input[type="text"] {
+  width: calc(100% - 24px);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #6c757d;
+}

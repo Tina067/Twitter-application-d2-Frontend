@@ -1,0 +1,16 @@
+{
+    "welcome": "Bienvenido",
+    "tweet": "Tuitear",
+    "explore": "Explorar",
+    "bookmarks": "Marcadores",
+    "lists": "Listas",
+    "login": {
+      "title": "Iniciar sesión",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "loginButton": "Iniciar sesión",
+      "googleButton": "Iniciar sesión con Google",
+      "signUpText": "¿No tienes una cuenta? Regístrate"
+    }
+  }
+  

@@ -148,6 +148,7 @@ export default function EditProfile({ user, loggedInUser }) {
     </div>
   );
 }
+ // eslint-disable-next-line no-lone-blocks
  {/* <div className="backgroundImage"></div>
           <div className="profileTitle">
             <div className="profileImage">

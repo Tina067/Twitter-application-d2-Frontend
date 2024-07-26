@@ -1,0 +1,16 @@
+{
+    "welcome": "স্বাগতম",
+    "tweet": "টুইট",
+    "explore": "অন্বেষণ",
+    "bookmarks": "বুকমার্ক",
+    "lists": "তালিকা",
+    "login": {
+      "title": "লগইন",
+      "email": "ইমেল",
+      "password": "পাসওয়ার্ড",
+      "loginButton": "লগইন করুন",
+      "googleButton": "গুগল দিয়ে লগইন করুন",
+      "signUpText": "অ্যাকাউন্ট নেই? সাইন আপ করুন"
+    }
+  }
+  

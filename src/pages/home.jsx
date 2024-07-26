@@ -35,7 +35,7 @@
 import React from 'react';
 import auth from '../firebase.init';
 import Sidebar from './Sidebar/Sidebar';
-import Feed from './Feed/Feed';
+// import Feed from './Feed/Feed';
 import Widgets from './Widgets/Widgets';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { signOut } from 'firebase/auth';

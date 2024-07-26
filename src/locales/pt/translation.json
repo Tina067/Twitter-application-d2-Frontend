@@ -1,0 +1,16 @@
+{
+    "welcome": "Bem-vindo",
+    "tweet": "Tweetar",
+    "explore": "Explorar",
+    "bookmarks": "Favoritos",
+    "lists": "Listas",
+    "login": {
+      "title": "Entrar",
+      "email": "Email",
+      "password": "Senha",
+      "loginButton": "Entrar",
+      "googleButton": "Entrar com Google",
+      "signUpText": "Não tem uma conta? Inscreva-se"
+    }
+  }
+  
